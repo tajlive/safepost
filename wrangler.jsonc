@@ -1,0 +1,33 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "safepost",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-08-07",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	"kv_namespaces": [
+		{
+			"binding": "safepost_kv",
+			"id": "9a8b57d6db8b4fe9a6f9eaef9a5e178a"
+		}
+	],
+	"assets": {
+		"directory": "./public/",
+		"binding": "ASSETS"
+	},
+	"vars": {
+		"ENVIRONMENT": "production"
+	},
+	"d1_databases": [
+		{
+			"binding": "safepost_db",
+			"database_name": "safepost-db",
+			"database_id": "d04d6807-2ac7-4768-a287-ae7ca622d630"
+		}
+	]
+}
