@@ -14,6 +14,10 @@
 		{
 			"binding": "safepost_kv",
 			"id": "9a8b57d6db8b4fe9a6f9eaef9a5e178a"
+		},
+		{
+			"binding": "SAFEPOST_KV",
+			"id": "e94150887690478090259dd91ab8c19b"
 		}
 	],
 	"assets": {
